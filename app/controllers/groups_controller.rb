@@ -6,7 +6,7 @@ class GroupsController < ApplicationController
 
   def index
     @groups = user ? user.groups : account.groups
-    respond_with @users
+    respond_with @groups
   end
 
   def show
@@ -36,7 +36,7 @@ class GroupsController < ApplicationController
   private
 
   def group
-    @group ||= Group.find_by_id(params[:id])
+    @group ||= account.groups.find_by_id(params[:id])
   end
 
   def account
