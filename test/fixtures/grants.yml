@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  group_id: 1
+  service_id: 1
+  right: MyString
+  resource_class: MyString
+  resource_identifier: 1
+  expires_at: 2013-11-27 10:34:20
+
+two:
+  group_id: 1
+  service_id: 1
+  right: MyString
+  resource_class: MyString
+  resource_identifier: 1
+  expires_at: 2013-11-27 10:34:20
